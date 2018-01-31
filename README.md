@@ -1,9 +1,9 @@
 # Auto-response-for-BrainKing
 This is an auto-response script for BrainKing miniprogram in WeChat. It's only used for studying and communication. Please don't use it to gain benefits or cheat.
-There are three .py files. 'BK_auto' is used to auto-response for BrainKing. 'BK_collector' is used to collect questions in '.txt' files in BrainKing and BrainKingAnswer profile and finally produce a '.xls' file in BrainKingAnswer profile. And 'BK_merge' is used to merge the '.xls' files in last step and 'a.xls' in BrainKingBank profile. 'a.xls' is question bank in this program.
+There are three .py files. 'BK_auto' is used to auto-response for BrainKing. 'BK_collector' is used to collect questions in '.txt' files in BrainKing and BrainKingAnswer folders and finally produce a '.xls' file in BrainKingAnswer folder. And 'BK_merge' is used to merge the '.xls' files in last step and 'a.xls' in BrainKingBank folder. 'a.xls' is question bank in this program.
 The compression package includes 'adb' and 'fiddler' to operate your android mobile phone and capture the data packege in your phone, respectively.
 
-这是一个头脑王者的自动答题脚本，只用作学习交流使用，严禁用来获取利益或作弊，否自后果自负！
+这是一个头脑王者的自动答题脚本，只用作学习交流使用，严禁用来获取利益或作弊，否自后果自负，如果有涉及侵权立即删除！
 
 压缩包里包含用来抓包的fiddler，和用来操作安卓手机的adb 。可能需要自定义fiddler的custom rules，在onBeforeResponse函数中添加写入文件的功能。具体可查看源代码。
 
